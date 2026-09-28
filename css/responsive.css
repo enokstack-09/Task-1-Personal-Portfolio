@@ -1,0 +1,621 @@
+/* Compact desktop and tablet */
+@media (max-width: 1100px) {
+    .container {
+        width: calc(100% - 64px);
+    }
+
+    .navigation {
+        gap: 25px;
+    }
+
+    .hero {
+        gap: 35px;
+        padding-top: 65px;
+    }
+
+    .hero-eyebrow {
+        white-space: normal;
+    }
+
+    .hero-socials {
+        gap: 17px;
+    }
+
+    .hero-socials > span:last-child,
+    .hero-socials .social-divider {
+        display: none;
+    }
+
+    .project-grid {
+        gap: 18px;
+    }
+
+    .project-content,
+    .detailed-projects .project-content {
+        padding: 22px;
+    }
+
+    .project-visual {
+        padding: 20px;
+        min-height: 210px;
+    }
+
+    .mini-app {
+        height: 165px;
+    }
+
+    .project-meta {
+        flex-wrap: wrap;
+    }
+
+    .about-preview,
+    .biography {
+        gap: 55px;
+    }
+
+    .contact-layout,
+    .journey-grid {
+        gap: 40px;
+    }
+
+    .form-panel {
+        padding: 28px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .cta-panel {
+        padding: 40px;
+    }
+
+    .process-grid {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 860px) {
+    .nav-bar {
+        min-height: 76px;
+    }
+
+    .brand-name {
+        font-size: 1rem;
+    }
+
+    .navigation {
+        gap: 20px;
+    }
+
+    .navigation .nav-cta {
+        display: none;
+    }
+
+    .hero {
+        gap: 30px;
+    }
+
+    .hero h1 {
+        font-size: clamp(3.6rem, 8vw, 5rem);
+    }
+
+    .hero-description {
+        font-size: 0.875rem;
+    }
+
+    .hero-role {
+        font-size: 1.03rem;
+    }
+
+    .editor-code {
+        font-size: 0.6rem;
+        padding-inline: 6px;
+    }
+
+    .line {
+        width: 24px;
+        margin-right: 7px;
+    }
+
+    .terminal-card {
+        margin-left: 12px;
+        padding-inline: 12px;
+    }
+
+    .terminal-card p {
+        font-size: 0.56rem;
+    }
+
+    .hero .button {
+        padding-inline: 16px;
+    }
+
+    .section {
+        padding-block: 70px;
+    }
+
+    .skills-grid,
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .strength-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-number {
+        padding-inline: 25px;
+    }
+
+    .about-number > span {
+        font-size: 4rem;
+    }
+
+    .about-preview,
+    .biography {
+        gap: 35px;
+    }
+
+    .identity-card {
+        padding: 28px;
+    }
+
+    .journey-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info > p {
+        max-width: 650px;
+    }
+
+    .contact-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-card:first-child {
+        grid-column: 1 / -1;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .cta-panel {
+        gap: 30px;
+        padding: 35px;
+    }
+
+    .cta-panel h2 {
+        font-size: 2rem;
+    }
+
+    .footer-main {
+        align-items: flex-start;
+    }
+
+    .footer-socials {
+        gap: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 680px) {
+    .container {
+        width: calc(100% - 40px);
+    }
+
+    .nav-bar {
+        min-height: 72px;
+    }
+
+    .brand-mark {
+        width: 38px;
+        height: 38px;
+        font-size: 1.4rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navigation {
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        padding: 18px 20px 24px;
+        background: #0d1827;
+        border-bottom: 1px solid #304659;
+        box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+    }
+
+    .navigation.is-open {
+        display: flex;
+    }
+
+    .navigation > a {
+        padding: 11px 14px;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    .navigation > a.active {
+        color: var(--accent);
+        background: #142b35;
+    }
+
+    .navigation > a.active::after {
+        display: none;
+    }
+
+    .navigation .nav-cta {
+        display: flex;
+        margin: 10px 0 0;
+        justify-content: space-between;
+    }
+
+    .menu-toggle[aria-expanded='true'] span:first-child {
+        transform: translateY(3.5px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded='true'] span:last-child {
+        transform: translateY(-3.5px) rotate(-45deg);
+    }
+
+    /* Keep navigation reachable without JavaScript. */
+
+    html:not(.js-enabled) .nav-bar {
+        flex-wrap: wrap;
+        padding-block: 15px;
+    }
+
+    html:not(.js-enabled) .navigation {
+        position: static;
+        display: flex;
+        box-shadow: none;
+        width: 100%;
+        border: 0;
+        padding: 0;
+    }
+
+    html:not(.js-enabled) .menu-toggle {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-top: 50px;
+        padding-bottom: 78px;
+    }
+
+    .hero h1 {
+        font-size: clamp(3.7rem, 15vw, 5.5rem);
+    }
+
+    .hero-eyebrow {
+        font-size: 0.6rem;
+        max-width: 330px;
+        gap: 8px;
+    }
+
+    .small-line {
+        width: 20px;
+        flex-shrink: 0;
+    }
+
+    .hero-role {
+        font-size: 1.1rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .hero-socials {
+        margin-top: 18px;
+    }
+
+    .developer-visual {
+        max-width: 480px;
+        margin-inline: auto;
+        padding-inline: 5px;
+        padding-top: 0;
+    }
+
+    .editor-code {
+        font-size: clamp(0.59rem, 2.5vw, 0.79rem);
+        line-height: 2;
+        padding-block: 18px;
+    }
+
+    .line {
+        width: 26px;
+        margin-right: 5px;
+    }
+
+    .terminal-card {
+        margin-left: 15px;
+    }
+
+    .terminal-card p {
+        font-size: clamp(0.56rem, 2.3vw, 0.74rem);
+    }
+
+    .scroll-cue {
+        bottom: 20px;
+    }
+
+    .technology-strip .container {
+        gap: 18px 25px;
+        padding-block: 22px;
+        justify-content: center;
+    }
+
+    .technology-strip .strip-caption {
+        width: 100%;
+        text-align: center;
+    }
+
+    .technology-strip span {
+        font-size: 0.9rem;
+    }
+
+    .section {
+        padding-block: 58px;
+    }
+
+    .about-preview {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .about-number {
+        min-width: 0;
+        padding: 8px 22px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-number > span {
+        font-size: 3rem;
+    }
+
+    .about-number p {
+        font-size: 0.875rem;
+        margin: 0;
+    }
+
+    .section-heading {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .section-heading > .text-link {
+        margin-top: 16px;
+    }
+
+    .section-heading h2 {
+        font-size: 1.9rem;
+    }
+
+    .skills-grid,
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .skill-card {
+        padding: 27px;
+    }
+
+    .project-visual {
+        min-height: 230px;
+        padding: 30px;
+    }
+
+    .mini-app {
+        height: 170px;
+    }
+
+    .project-content,
+    .detailed-projects .project-content {
+        padding: 25px;
+    }
+
+    .process-grid {
+        gap: 25px;
+    }
+
+    .process-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .cta-panel {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px 25px;
+    }
+
+    .cta-panel h2 {
+        font-size: 1.9rem;
+    }
+
+    .cta-panel .button {
+        width: 100%;
+    }
+
+    .page-hero {
+        padding-top: 52px;
+        padding-bottom: 40px;
+    }
+
+    .page-hero h1 {
+        font-size: clamp(2.5rem, 9vw, 3.5rem);
+    }
+
+    .page-hero > p:last-child {
+        font-size: 1rem;
+    }
+
+    .biography {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .identity-card {
+        padding: 32px;
+    }
+
+    .identity-monogram {
+        font-size: 4.5rem;
+    }
+
+    .strength-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .journey-item {
+        gap: 18px;
+    }
+
+    .learning-card {
+        padding: 27px;
+    }
+
+    .filter-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .filter-controls {
+        gap: 4px;
+    }
+
+    .filter-button {
+        padding-inline: 14px;
+    }
+
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card:first-child {
+        grid-column: auto;
+    }
+
+    .contact-layout {
+        padding-top: 42px;
+        gap: 38px;
+    }
+
+    .form-panel {
+        padding: 26px 22px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer-socials {
+        gap: 24px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .back-to-top {
+        bottom: 18px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: calc(100% - 32px);
+    }
+
+    .brand {
+        gap: 10px;
+    }
+
+    .brand-name {
+        font-size: 0.925rem;
+    }
+
+    .hero h1 {
+        font-size: 3.75rem;
+    }
+
+    .hero-role {
+        font-size: 1rem;
+    }
+
+    .hero .button-row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .editor-code {
+        font-size: 0.55rem;
+    }
+
+    .terminal-card p {
+        font-size: 0.5rem;
+    }
+
+    .editor-tabs {
+        gap: 14px;
+    }
+
+    .editor-tab {
+        padding-inline: 10px;
+    }
+
+    .project-visual {
+        padding: 24px;
+    }
+
+    .project-content,
+    .detailed-projects .project-content {
+        padding: 22px;
+    }
+
+    .filter-button {
+        padding-inline: 11px;
+        font-size: 0.825rem;
+    }
+
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,38 @@
+index: 320px — layout, assets, navigation, footer OK
+index: 375px — layout, assets, navigation, footer OK
+index: 425px — layout, assets, navigation, footer OK
+index: 768px — layout, assets, navigation, footer OK
+index: 1024px — layout, assets, navigation, footer OK
+index: 1440px — layout, assets, navigation, footer OK
+about: 320px — layout, assets, navigation, footer OK
+about: 375px — layout, assets, navigation, footer OK
+about: 425px — layout, assets, navigation, footer OK
+about: 768px — layout, assets, navigation, footer OK
+about: 1024px — layout, assets, navigation, footer OK
+about: 1440px — layout, assets, navigation, footer OK
+projects: 320px — layout, assets, navigation, footer OK
+projects: 375px — layout, assets, navigation, footer OK
+projects: 425px — layout, assets, navigation, footer OK
+projects: 768px — layout, assets, navigation, footer OK
+projects: 1024px — layout, assets, navigation, footer OK
+projects: 1440px — layout, assets, navigation, footer OK
+contact: 320px — layout, assets, navigation, footer OK
+contact: 375px — layout, assets, navigation, footer OK
+contact: 425px — layout, assets, navigation, footer OK
+contact: 768px — layout, assets, navigation, footer OK
+contact: 1024px — layout, assets, navigation, footer OK
+contact: 1440px — layout, assets, navigation, footer OK
+Project filters and unavailable-link feedback OK
+Contact empty/invalid/short/valid cases, focus, encoded draft and stale draft reset OK
+Navbar scroll state and back-to-top OK
+All pages at 200% text size: 320, 375 and 1440px — no horizontal overflow
+Normal-motion scroll reveals and reduced-motion layout OK
+No-JavaScript content and mobile navigation fallback OK
+Direct file opening works
+No page, console or HTTP asset errors
+
+Code-style cleanup verified: all HTML, CSS, JavaScript and favicon formatted.
+Prettier style check and JavaScript syntax check passed.
+Repeated all 24 responsive layouts, mobile navigation, filters and contact form checks successfully.
+Whitespace-sensitive code content preserved; all four pages passed enlarged-text checks.
+Desktop screenshot comparison showed unchanged About, Projects and Contact; Home changed below 0.01% of pixels.
