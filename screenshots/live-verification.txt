@@ -1,0 +1,31 @@
+index: 320px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+index: 375px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+index: 425px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+index: 768px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+index: 1024px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+index: 1440px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 320px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 375px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 425px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 768px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 1024px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+about: 1440px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 320px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 375px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 425px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 768px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 1024px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+projects: 1440px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 320px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 375px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 425px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 768px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 1024px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+contact: 1440px — page, assets, relative paths, GitHub links, navigation, footer and overflow OK
+Mobile internal page navigation OK
+All four project filters OK
+Contact empty/invalid/short/valid cases and real-recipient email draft OK
+Back-to-top and header scroll behavior OK
+Real GitHub profile opens in a new tab without placeholder interception
+No browser page errors, console errors or HTTP asset errors
+Final screenshot captured from the live GitHub Pages homepage

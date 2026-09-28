@@ -2,6 +2,14 @@
 
 A modern, responsive personal portfolio for **V Enok Bilshan — Full Stack Software Developer**. Built with plain HTML, CSS, and JavaScript, with no frameworks or build step.
 
+## Live Demo
+
+[View the live portfolio](https://enokstack-09.github.io/Task-1-Personal-Portfolio/)
+
+[GitHub repository](https://github.com/enokstack-09/Task-1-Personal-Portfolio)
+
+GitHub Pages deployment was verified on 28 September 2026. The site publishes the `main` branch from `/` (repository root). All four pages and their local assets returned successfully, and live browser checks passed at six viewport widths.
+
 ## Internship Information
 
 - **Organization:** Auspify Technologies
@@ -14,7 +22,7 @@ Design and build Home, About, Projects, and Contact pages that showcase personal
 
 ## Project Overview
 
-The portfolio uses a dark navy palette, electric cyan accents, layered surfaces, and locally rendered developer and project interface concepts. The content reflects the supplied personal profile and projects. It does not claim employment history, experience durations, skill percentages, or a live deployment.
+The portfolio uses a dark navy palette, electric cyan accents, layered surfaces, and locally rendered developer and project interface concepts. The content reflects the supplied personal profile and projects. It does not claim employment history, experience durations, or skill percentages. The live deployment is linked above and was verified before being documented.
 
 ## Features
 
@@ -60,6 +68,8 @@ Task-1-Personal-Portfolio/
 ├── README.md
 ├── .editorconfig
 ├── .prettierrc.json
+├── .gitattributes
+├── .nojekyll
 ├── .gitignore
 └── LICENSE
 ```
@@ -114,7 +124,7 @@ Unavailable project repositories and demos remain clearly marked placeholders. R
 5. Wait for GitHub's deployment to finish and use the URL displayed in Settings → Pages.
 6. Check all four pages, asset loading, filters, mobile navigation, and email links on the published site.
 
-There is no build step, environment variable, domain requirement, or backend. Relative paths support GitHub Pages repository subdirectories. No actual public deployment URL is claimed by this project.
+There is no build step, environment variable, domain requirement, or backend. Relative paths support GitHub Pages repository subdirectories. The included `.nojekyll` file enables straightforward static publishing. The verified deployment URL appears in Live Demo above.
 
 ## Screenshots
 
@@ -127,6 +137,8 @@ Five automated Edge browser captures are included in screenshots/: desktop captu
 - [home-mobile.png](screenshots/home-mobile.png)
 
 To update manually, serve or open the site, use a 1440px desktop viewport and 375px mobile viewport, and save browser captures under these names. Scroll through each page before a full-page capture so reveal animations have completed.
+
+The final [live deployment screenshot](screenshots/final-live-deployment.png) was captured directly from the published GitHub Pages homepage at 1440px width, after the page and assets loaded. It contains no debug panels, menus, or placeholder notifications.
 
 ## Verification
 
@@ -143,7 +155,27 @@ Automated browser checks were run using Microsoft Edge and Playwright. All four 
 - No browser console, page, or HTTP asset errors
 - No horizontal overflow at **200% text size** on all pages at 320, 375, and 1440px
 
-The captures were visually reviewed and logo alignment and enlarged-text overflow were corrected. See [the verification record](screenshots/verification.txt) for individual results. GitHub Pages publishing itself has not been performed.
+The captures were visually reviewed and logo alignment and enlarged-text overflow were corrected. See [the verification record](screenshots/verification.txt) for individual results. GitHub Pages publishing and the live site were also verified. See [the live verification record](screenshots/live-verification.txt) for individual live results.
+
+## Submission Checklist
+
+- [x] Project source code complete
+- [x] Home page working
+- [x] About page working
+- [x] Projects page working
+- [x] Contact page working
+- [x] Responsive design working
+- [x] GitHub social placeholders replaced with the supplied profile
+- [x] Real GitHub links have no JavaScript placeholder blocker
+- [x] Internal paths support GitHub Pages repository subdirectories
+- [x] Git repository configured on `main`
+- [x] Public GitHub repository pushed normally
+- [x] GitHub Pages enabled from `main` at repository root
+- [x] Live deployment verified
+- [x] README contains the verified live URL
+- [x] Final live deployment screenshot captured
+
+Unavailable project-specific repositories and demos remain explicitly documented placeholders, as requested. No deployment action remains for the portfolio itself.
 
 ## Code Style
 
@@ -158,7 +190,7 @@ npx --yes --package prettier@3.6.2 prettier --parser html --write "assets/icons/
 
 ## Future Improvements
 
-- Replace placeholders with real social profiles, contact email, repositories, and demos
+- Add project-specific repository and demo URLs when available
 - Add real project screenshots and results once available
 - Connect a real form service with explicit submission handling and spam protection
 - Add further completed projects and verified education details
